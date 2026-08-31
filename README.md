@@ -1,5 +1,5 @@
 <h1 align="center">Ly Henglong</h1>
-<p align="center">Computer Science student building toward Data Science, ML, and AI systems</p>
+<p align="center">ICT building toward Data Science, ML, and AI systems</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/lyhenglong"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
@@ -9,7 +9,7 @@
 
 <br>
 
-Final-year Computer Science student at AUPP, Phnom Penh. I like working with data — cleaning it, modeling it, and building things around it. Most of what's here comes from experimenting: training models, wiring them up to an API, and seeing what breaks.
+Final-year ICT student at AUPP, Phnom Penh. I like working with data — cleaning it, modeling it, and building things around it. Most of what's here comes from experimenting: training models, wiring them up to an API, and seeing what breaks.
 
 <br>
 
