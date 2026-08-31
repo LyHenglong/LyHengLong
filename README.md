@@ -1,8 +1,14 @@
 <h1 align="center">Hi, I'm Ly Henglong 👋</h1>
-<h3 align="center">Aspiring Data Scientist | Machine Learning | Data Analytics</h3>
+<h3 align="center">Aspiring Data Scientist · Machine Learning · Data Analytics</h3>
 
 <p align="center">
   Bachelor of ICT, American University of Phnom Penh (AUPP) · Phnom Penh, Cambodia
+</p>
+
+<p align="center">
+  <a href="INSERT_LINKEDIN_URL_HERE"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:INSERT_EMAIL_HERE"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/LyHenglong"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -28,41 +34,75 @@ I'm currently expanding into **AWS Cloud, Data Engineering, and LLM/Generative A
 
 ### 🧰 Technical Skills
 
-**Programming**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![DAX](https://img.shields.io/badge/-DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,java,js" />
+
+SQL · DAX
+
+</td>
+<td valign="top" width="33%">
+
+**ML / Deep Learning**
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+
+Scikit-learn · Feature Engineering · Model Evaluation · CNNs
+
+</td>
+<td valign="top" width="33%">
 
 **Data Analysis**
-Pandas · NumPy · Matplotlib · Seaborn · Exploratory Data Analysis (EDA)
 
-**Machine Learning**
-Scikit-learn · Feature Engineering · Model Training · Model Evaluation
+Pandas · NumPy · Matplotlib · Seaborn · EDA
 
-**Deep Learning**
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-Convolutional Neural Networks (CNNs)
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
 
 **Databases**
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 
-**Cloud**
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-AWS S3 · AWS EC2
+<img src="https://skillicons.dev/icons?i=mysql,postgres" />
 
-**Visualization**
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+</td>
+<td valign="top" width="33%">
+
+**Cloud & Viz**
+
+<img src="https://skillicons.dev/icons?i=aws" />
+
+AWS S3 · AWS EC2 · Power BI
+
+</td>
+<td valign="top" width="33%">
 
 **Tools**
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,jupyter" />
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LyHenglong&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LyHenglong&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LyHenglong&theme=tokyonight&hide_border=true" />
+</p>
+
+> 📝 Note: These cards render live from your GitHub activity — they'll fill in as you commit, open PRs, and push to repos. A brand-new profile will show low numbers at first, which is normal.
 
 ---
 
