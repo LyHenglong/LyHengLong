@@ -1,169 +1,115 @@
-<h1 align="center">Ly Henglong</h1>
-<p align="center">ICT building toward Data Science, ML, and AI systems</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/lyhenglong"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:lyhenglong6@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/LyHenglong"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
-</p>
+# Henglong Ly
+### Data Scientist / ML Engineer — in training
 
-<br>
+Phnom Penh, Cambodia · B.Sc. Information & Communication Technology, AUPP (Dec 2026)
 
-Final-year ICT student at AUPP, Phnom Penh. I like working with data — cleaning it, modeling it, and building things around it. Most of what's here comes from experimenting: training models, wiring them up to an API, and seeing what breaks.
+<a href="https://github.com/LyHenglong"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://linkedin.com/in/lyhenglong"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
-<br>
-
-### 🔎 What I'm into
-
-`Data Science` · `Machine Learning` · `Deep Learning` · `Data Analytics` · `Data Engineering` · `Generative AI / LLMs` · `Computer Vision` · `Cloud Computing` · `Backend / API Development` · `AI-powered Applications`
+</div>
 
 <br>
 
-## 🛠️ Technologies
+I build data-driven systems — pipelines that clean and model data, and applications that serve those models through APIs.
 
-<table>
-<tr>
-<td valign="top">
+```
+Data → Analysis → Machine Learning → APIs → Applications
+```
 
-**Languages**
-<br>
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css" />
-<br>SQL · DAX
-
-</td>
-<td valign="top">
-
-**Data & Analytics**
-<br>
-Pandas · NumPy · Matplotlib · Seaborn
-<br>Power BI · EDA · Statistics
-
-</td>
-<td valign="top">
-
-**Machine Learning**
-<br>
-Scikit-learn · Feature Engineering
-<br>Classification · Regression · Ensembles
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Deep Learning & AI**
-<br>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-<br>CNNs · Computer Vision · Prompt Engineering
-
-</td>
-<td valign="top">
-
-**Cloud**
-<br>
-<img src="https://skillicons.dev/icons?i=aws" />
-<br>S3 · EC2 · SageMaker
-
-</td>
-<td valign="top">
-
-**Backend & Web**
-<br>
-<img src="https://skillicons.dev/icons?i=fastapi" />
-<br>REST APIs · Uvicorn · Streamlit
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Databases**
-<br>
-<img src="https://skillicons.dev/icons?i=mysql,postgres" />
-
-</td>
-<td valign="top">
-
-**Dev Tools**
-<br>
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,jupyter" />
-
-</td>
-<td valign="top">
-
-**Data Engineering** <sub>(learning)</sub>
-<br>
-ETL/ELT · Spark · Airflow · Data Warehousing
-
-</td>
-</tr>
-</table>
+Currently deepening time-series analysis and explainable ML (SHAP). Open to **Junior Data Scientist**, **Data Scientist**, **ML Engineer**, and **AI Engineer** roles.
 
 <br>
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🔐 Phishing URL Detection System
-**[github.com/LyHenglong/phishing-detector](https://github.com/LyHenglong/phishing-detector)**
+### 📊 Telecom Customer Intelligence Platform
+End-to-end data and machine-learning platform for telecom customer analytics, built as a production-style pipeline rather than a single notebook.
 
-**What I built:** An end-to-end pipeline that classifies URLs as phishing or legitimate, trained on 109,614 labeled URLs across 30 structural and lexical features. I compared several classification models before settling on Gradient Boosting, which reached a 96.38% F1-score and 0.9934 AUC-ROC. The model is served through a FastAPI backend with a Streamlit front end, supporting both single-URL and batch prediction.
+- Churn prediction and customer segmentation on telecom account/usage data
+- Exploratory data analysis and customer-intelligence reporting
+- Explainable ML with SHAP for per-customer prediction breakdowns
+- PostgreSQL + dbt transformation layer feeding a customer data mart
+- Model-serving REST API (FastAPI) behind an analytics dashboard
 
-**Tech stack:** `Python` `Scikit-learn` `Feature Engineering` `FastAPI` `Streamlit` `Model Serialization`
+`Python` `Scikit-learn` `PostgreSQL` `dbt` `FastAPI` `SHAP` `Docker`
+
+**[Repository →](https://github.com/LyHenglong/Customer-Intelligence-Platform)**
 
 ---
 
-### ✍️ Interactive Handwritten Character Recognition
-**[github.com/LyHenglong/Handwritting-Recognition-v1](https://github.com/LyHenglong/Handwritting-Recognition-v1)**
+### 📈 XAU Sentinel
+Read-only XAUUSD (gold) market-intelligence and decision-support platform. **It does not place trades, send orders, or trade autonomously** — it ingests and analyzes market data and surfaces findings for a human to review.
 
-**What I built:** A CNN trained to recognize handwritten characters in real time, reaching 96%+ test accuracy. The pipeline covers image preprocessing, normalization, and data augmentation, with a confusion matrix used to evaluate per-class performance. Wrapped in an interactive interface so predictions happen live as you draw.
+- MT5 market data ingestion across H4 / H1 / M15 / M5 timeframes
+- Market structure, liquidity, and key supply/demand area detection
+- Volatility and volume analysis
+- Strategy evaluation, statistical research, and backtesting
+- Risk monitoring and AI-assisted explanation of findings
+- Telegram alerts, with a FastAPI backend, PostgreSQL storage, and a Next.js dashboard
 
-**Tech stack:** `Python` `TensorFlow/PyTorch` `CNN` `Computer Vision` `Data Augmentation`
+`Python` `FastAPI` `PostgreSQL` `Next.js` `Docker` `MetaTrader 5`
 
-<br>
+*Decision-support only — no trade execution or order placement.*
 
-## 📚 Currently Learning
+---
 
-**Data Engineering**
-Advanced SQL · ETL/ELT · Apache Spark · Apache Airflow · Data Warehousing · Data Lakes · Lakehouse Architecture · Batch & Streaming Concepts
+### ✍️ CNN Handwritten Character Recognition
+Custom ResNet-style CNN trained on EMNIST ByClass (62 classes) for handwritten character recognition.
 
-**AWS**
-IAM · VPC · RDS · Lambda · Cloud Architecture · AWS Data & ML Services
+`PyTorch` · 2.77M parameters · 84.74% test accuracy · GPU training
 
-**AI / LLM**
-LLM Application Development · RAG · Embeddings · Vector Databases · LLM APIs · AI Agents · Model Evaluation
+**[Repository →](https://github.com/LyHenglong/Handwriting-Recognition)**
 
-<br>
+---
 
-## ⚙️ How I Work
+### 🔐 Phishing URL Detector
+URL feature engineering and machine-learning classification to flag phishing URLs, served through a FastAPI backend with a Streamlit interface.
 
-Day to day, I'm usually in VS Code or a Jupyter Notebook, working inside a Python virtual environment and tracking everything with Git. When a project needs to run somewhere consistent, I containerize it with Docker; when it needs a front end, I reach for Streamlit or wrap it in a REST API.
+`Scikit-learn` `FastAPI` `Streamlit`
 
-I also use AI tools as part of that workflow — not as a substitute for understanding the code, but to move faster through the parts I already know how to check:
-
-- **ChatGPT** — learning, technical explanations, debugging
-- **Claude Code** — coding, development, debugging, project assistance
-- **Gemini** — technical research and exploration
-- **SeaLion** — exploring LLMs and Southeast Asian language AI
-
-<br>
-
-## 🧭 Technical Journey
-
-```
-Python → Data Analysis → Machine Learning → Deep Learning → ML Applications → Cloud → Data Engineering → AI/LLM Applications
-```
+**[Repository →](https://github.com/LyHenglong/phishing-detector)**
 
 <br>
 
-## 📊 GitHub Activity
+## Technical Stack
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LyHenglong&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LyHenglong&layout=compact&theme=tokyonight&hide_border=true" />
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
+**Languages**
+`Python` `SQL` `JavaScript` `TypeScript`
+
+**Data & Analytics**
+`Pandas` `NumPy` `PostgreSQL` `MySQL` `MongoDB` `Power BI` `Matplotlib` `Seaborn`
+
+**Machine Learning**
+`Scikit-learn` `TensorFlow` `PyTorch` — classification · regression · clustering · feature engineering · model evaluation · explainable ML (SHAP)
+
+**Engineering**
+`FastAPI` `Streamlit` `Docker` `Git/GitHub` `AWS` — REST APIs
+
 <br>
 
-## 📫 Connect
+## Education
 
-[LinkedIn](https://linkedin.com/in/lyhenglong) · [GitHub](https://github.com/LyHenglong) · [Email](mailto:lyhenglong6@example.com)
+**American University of Phnom Penh (AUPP)** — B.Sc. in Information & Communication Technology
+Expected graduation: December 2026 · CGPA 3.79
+
+<br>
+
+## Connect
+
+[GitHub](https://github.com/LyHenglong) · [LinkedIn](https://linkedin.com/in/lyhenglong)
